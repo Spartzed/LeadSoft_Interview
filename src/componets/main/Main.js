@@ -32,7 +32,7 @@ const Main = () => {
     //     return <div className="loading">Carregando usuários... </div>
     // }
     // console.log(data);
-    
+
   return (
     <main>
       <div className="main__container">
@@ -45,7 +45,7 @@ const Main = () => {
             <MaterialTable
             columns={[
                { title: 'ID', field: 'Id' },
-               { title: 'Nome Completo', field: 'Name' },
+               { title: 'Nome', field: 'Name' },
                { title: 'Sobrenome', field: 'Surname' },
                { title: 'Aniversario', field: 'DateOfBirth', type: 'numeric' }
             ]}
